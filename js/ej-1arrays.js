@@ -14,6 +14,9 @@ let meses = [
   "Noviembre",
   "Diciembre",
 ];
+
+document.write("<H2>Meses del año: </H2>");
+
 for (let i = 0; i < meses.length; i++) {
-  document.write(meses[i],'<br>');
+  document.write("<h5>" + meses[i] + "</h5>");
 }
